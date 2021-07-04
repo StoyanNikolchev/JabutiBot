@@ -1,5 +1,6 @@
 import Commands.DiscordServerCommands;
 import Commands.MinecraftServerCommands;
+import Events.OwnerReact;
 import Events.MemeEvents;
 import Features.Status;
 import net.dv8tion.jda.api.JDA;
@@ -13,5 +14,6 @@ public class Bot {
         jda.addEventListener(new MinecraftServerCommands());
         jda.addEventListener(new DiscordServerCommands());
         jda.addEventListener(new Status());
+        jda.addEventListener(new OwnerReact());
     }
 }
