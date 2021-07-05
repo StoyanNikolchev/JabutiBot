@@ -35,6 +35,15 @@
           <groupId>com.heroku.sdk</groupId>
           <artifactId>heroku-maven-plugin</artifactId>
           <version>3.0.3</version>
+          <configuration>
+            <includes>
+              <include>src/main/java/Commands/DiscordServerCommands.java</include>
+              <include>src/main/java/Commands/MinecraftCommands.java</include>
+              <include>src/main/java/Events/MemeEvents.java</include>
+              <include>src/main/java/Events/OwnerReact.java</include>
+              <include>src/main/java/Features/Status.java</include>
+            </includes>
+          </configuration>
         </plugin>
       </plugins>
     </build>
