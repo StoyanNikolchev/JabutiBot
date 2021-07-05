@@ -6,7 +6,6 @@
 
     <groupId>org.example</groupId>
     <artifactId>TestBot</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -24,9 +23,9 @@
 
     <repositories>
         <repository>
-            <id>jcenter</id>
+            <id>dv8tion</id>
             <name>m2-dv8tion</name>
-            <url>https://jcenter.bintray.com/</url>
+            <url>https://m2.dv8tion.net/releases/</url>
         </repository>
     </repositories>
 
