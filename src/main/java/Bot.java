@@ -14,5 +14,6 @@ public class Bot {
         jda.addEventListener(new MinecraftServerCommands());
         jda.addEventListener(new DiscordServerCommands());
         jda.addEventListener(new Status());
+        jda.addEventListener(new OwnerReact());
     }
 }
