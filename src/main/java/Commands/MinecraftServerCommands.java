@@ -10,10 +10,10 @@ public class MinecraftServerCommands extends ListenerAdapter {
         if (isValidCommand(input)) {
 
             if (input.equalsIgnoreCase(".ip")) {
-                event.getChannel().sendMessage("*The IP of OldFacs is 51.68.102.222:25578*").queue();
+                event.getChannel().sendMessage("*The IP of OldFacs is 157.90.130.172:25589 or oldfacs.com*").queue();
 
             } else if (input.equalsIgnoreCase(".version")) {
-                event.getChannel().sendMessage("*The server is currently running on 1.16.5*").queue();
+                event.getChannel().sendMessage("*The server can be joined on 1.9 - 1.19.3*").queue();
 
             } else if (input.equalsIgnoreCase(".rules")) {
                 event.getChannel().sendMessage("*The* **Minecraft server** *has* **no** *rules. But the Discord server* **does:** <#705002346274488364>").queue();
