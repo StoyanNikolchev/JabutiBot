@@ -13,7 +13,7 @@ public class SexResponse extends ListenerAdapter {
         Message message = event.getMessage();
 
         User messageAuthor = message.getAuthor();
-        if (!message.getContentRaw().contains("sex") || messageAuthor.isBot()) {
+        if (!message.getContentRaw().toLowerCase().contains("sex") || messageAuthor.isBot()) {
             return;
         }
 
