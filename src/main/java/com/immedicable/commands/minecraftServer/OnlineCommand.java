@@ -23,7 +23,7 @@ public class OnlineCommand extends ListenerAdapter {
 
         event.deferReply().queue();
 
-        MinecraftPingReply data = null;
+        MinecraftPingReply data;
 
         try {
             data = new MinecraftPing().getPing(new MinecraftPingOptions().setHostname("5.9.182.66").setPort(25567));
