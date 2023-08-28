@@ -14,4 +14,9 @@ public enum Constants {
     public static final String BLACK_PETE_MOMENT_VIDEO_LINK = "https://cdn.discordapp.com/attachments/494257951402491938/777605592163287080/black.mp4";
     public static final String PING_RESPONSE = "Don't ping me, faggot!";
     public static final long JABUTI_BOT_ID = 860984515514335242L;
+    public static final String MISTAKE_SHAME_RESPONSE = "you dumb NIGGER \n" +
+            "YOU SPELT A WORD WRONG \n" +
+            "YOU FUCKING SUCK \n" +
+            "OH MY GOD \n" +
+            "**KILL YOURSELF**";
 }

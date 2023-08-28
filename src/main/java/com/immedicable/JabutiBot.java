@@ -36,5 +36,6 @@ public class JabutiBot {
         jda.addEventListener(new MemberNameReacts());
         jda.addEventListener(new BlackPeteMomentResponse());
         jda.addEventListener(new PingResponse());
+        jda.addEventListener(new MistakeShamer());
     }
 }
