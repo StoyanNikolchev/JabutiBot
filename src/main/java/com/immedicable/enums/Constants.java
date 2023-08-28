@@ -12,4 +12,6 @@ public enum Constants {
     public static final String SEAGULL_MOMENT_LINK = "https://cdn.discordapp.com/attachments/508258875430928385/805533631858737172/Screenshot_20210131-2222241.png";
     public static final String SEX_STATUS = "Sex is not enabled on this server, %s";
     public static final String BLACK_PETE_MOMENT_VIDEO_LINK = "https://cdn.discordapp.com/attachments/494257951402491938/777605592163287080/black.mp4";
+    public static final String PING_RESPONSE = "Don't ping me, faggot!";
+    public static final long JABUTI_BOT_ID = 860984515514335242L;
 }

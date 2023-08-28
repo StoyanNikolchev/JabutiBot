@@ -16,7 +16,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 public class JabutiBot {
     public static void main(String[] args) throws Exception{
 
-        JDA jda = JDABuilder.createDefault(System.getenv("TOKEN"),
+        JDA jda = JDABuilder.createDefault("",
                 GatewayIntent.GUILD_MESSAGES,
                 GatewayIntent.MESSAGE_CONTENT)
                 .build();
@@ -35,5 +35,6 @@ public class JabutiBot {
         jda.addEventListener(new BearlitResponse());
         jda.addEventListener(new MemberNameReacts());
         jda.addEventListener(new BlackPeteMomentResponse());
+        jda.addEventListener(new PingResponse());
     }
 }
