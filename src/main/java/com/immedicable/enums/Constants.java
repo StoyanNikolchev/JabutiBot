@@ -3,7 +3,7 @@ package com.immedicable.enums;
 public enum Constants {
     ;
 
-    public static final String IP_OF_OLDFACS = "The IP of OldFacs is 5.9.182.66:25567 or oldfacs.com";
+    public static final String IP_OF_OLDFACS = "The IP of OldFacs is 46.4.5.95:25568 or oldfacs.com";
     public static final String SUPPORTED_MINECRAFT_VERSIONS = "The server can be joined on Minecraft versions 1.9 - 1.20.1";
     public static final String SERVER_RULES = "The Minecraft server has no rules. But the Discord server does: <#705002346274488364>";
     public static final String ONLINE_PLAYERS_FORMAT = "%d online. %nPlayers: %s";
